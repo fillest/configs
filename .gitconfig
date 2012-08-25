@@ -1,0 +1,35 @@
+[alias]
+	alias = config --get-regexp alias
+
+	s = status
+	bl = branch -a -v
+	#bl = show-branch -a
+
+	d = difftool
+	g = cola
+
+	pr = pull --rebase
+	co = checkout
+
+	revert = git checkout -- .
+
+	adda = add --all
+
+	c = commit
+	ca = commit --all
+
+	bc = checkout -b
+	b = branch
+[color]
+	ui = true
+[user]
+	name = Philipp
+	email = fsfeel@gmail.com
+[core]
+	editor = nano
+	pager = less
+	autocrlf = false
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
