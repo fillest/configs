@@ -12,6 +12,7 @@
 	co = checkout
 
 	revert = checkout -- .
+	forget = rm --cached
 
 	adda = add --all
 
