@@ -11,7 +11,7 @@
 	pr = pull --rebase
 	co = checkout
 
-	revert = git checkout -- .
+	revert = checkout -- .
 
 	adda = add --all
 
