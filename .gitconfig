@@ -19,7 +19,7 @@
 	c = commit
 	ca = commit --all
 
-	bc = checkout -b
+	bc = checkout -b  #create and switch to a branch
 	b = branch
 [color]
 	ui = true
