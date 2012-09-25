@@ -2,7 +2,7 @@
 	alias = config --get-regexp alias
 
 	s = status
-	bl = branch -a -v
+	bl = branch --all --verbose
 	#bl = show-branch -a
 
 	d = difftool
