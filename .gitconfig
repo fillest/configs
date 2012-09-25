@@ -1,5 +1,6 @@
 [alias]
 	alias = config --get-regexp alias
+	cfg = config --edit --global
 
 	s = status
 	bl = branch --all --verbose
