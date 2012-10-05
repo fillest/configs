@@ -20,8 +20,10 @@
 	c = commit
 	ca = commit --all
 
-	bc = checkout -b  #create and switch to a branch
 	b = branch
+	bc = checkout -b  #create and switch to a branch
+	bldel = branch -d
+	brdel = push origin --delete
 [color]
 	ui = true
 [user]
