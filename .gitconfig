@@ -22,7 +22,7 @@
 
 	b = branch
 	bc = checkout -b  #create and switch to a branch
-	bldel = branch -d
+	bldel = branch -D
 	brdel = push origin --delete
 [color]
 	ui = true
