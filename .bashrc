@@ -3,7 +3,8 @@
 # for examples
 
 # If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+#[ -z "$PS1" ] && return
+if [[ -n "$PS1" ]]; then  #for rvm
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -117,3 +118,9 @@ fi
 alias inst="sudo apt-get install \$@"
 alias sch="apt-cache search \$@"
 alias shw="apt-cache show \$@"
+
+if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
+
+fi
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
