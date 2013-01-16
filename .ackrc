@@ -1,0 +1,3 @@
+--ignore-dir=venv
+--ignore-dir=venvw
+--type-set=mako=.mako
