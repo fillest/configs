@@ -24,7 +24,7 @@
 	b = branch
 	bc = checkout -b  #create and switch to a branch
 	bldel = branch -D
-	brdel = push origin --delete
+	brdel = push --delete origin
 	sq = merge --squash
 [color]
 	ui = true
