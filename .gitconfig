@@ -20,6 +20,7 @@
 
 	c = commit
 	ca = commit --all
+	pu = push --set-upstream
 
 	b = branch
 	bc = checkout -b  #create and switch to a branch
@@ -39,3 +40,5 @@
 	tool = meld
 [difftool]
 	prompt = false
+[push]
+	default = current  #http://stackoverflow.com/questions/948354/git-push-default-behavior#comment8930472_948397
