@@ -16,7 +16,7 @@
 	rst = reset --hard
 	forget = rm --cached
 
-	adda = add --all
+	ada = add --all
 
 	c = commit
 	ca = commit --all
