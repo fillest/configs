@@ -97,6 +97,7 @@ alias psgrep='ps aux | grep -v grep | grep -i '
 alias inst="sudo apt-get install \$@"
 alias sch="apt-cache search \$@"
 alias shw="apt-cache show \$@"
+alias h="htop"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
