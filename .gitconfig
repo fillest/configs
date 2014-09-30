@@ -11,6 +11,8 @@
 	l = "!gitk"
 
 	pr = pull --rebase
+	#locally delete remotely deleted branches
+	fp = fetch -p
 	co = checkout
 
 	rst = reset --hard
