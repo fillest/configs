@@ -5,6 +5,7 @@
 	s = status
 	bl = branch --all --verbose
 	#bl = show-branch -a
+	untracked = "!git ls-files . --ignored --exclude-standard --others | grep -v -e venv/ -e .pyc"
 
 	d = difftool
 	g = cola
