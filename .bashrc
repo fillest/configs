@@ -98,6 +98,7 @@ alias inst="sudo apt-get install \$@"
 alias sch="apt-cache search \$@"
 alias shw="apt-cache show \$@"
 alias h="htop"
+alias c="cd -"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
