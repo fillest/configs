@@ -93,6 +93,7 @@ alias l='ls -lahF'
 #alias la='ls -A'
 #alias l='ls -CF'
 alias g='git g &'
+alias s='git s'
 alias psgrep='ps aux | grep -v grep | grep -i '
 alias inst="sudo apt-get install \$@"
 alias sch="apt-cache search \$@"
