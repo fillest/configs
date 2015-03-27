@@ -3,3 +3,4 @@ ln -s ~/proj/configs/.bashrc ~/.bashrc
 ln -s ~/proj/configs/.ackrc ~/.ackrc
 ln -s ~/proj/configs/.screenrc ~/.screenrc
 ln -s ~/proj/configs/mplayer/config ~/.mplayer/config
+ln -s ~/proj/configs/ssh ~/.ssh/config
