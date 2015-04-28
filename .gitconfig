@@ -29,6 +29,7 @@
 	bc = checkout -b  #create and switch to a branch
 	bldel = branch -D
 	brdel = push --delete origin
+	badel = !sh -c 'git bldel $1 && git brdel $1' -
 	sq = merge --squash
 [color]
 	ui = true
