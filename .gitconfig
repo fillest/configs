@@ -11,7 +11,7 @@
 	g = cola
 	l = "!gitk"
 
-	pr = pull --rebase
+	pr = pull --rebase=preserve
 	#locally delete remotely deleted branches
 	fp = fetch -p
 	co = checkout
