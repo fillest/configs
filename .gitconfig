@@ -1,9 +1,9 @@
 [alias]
-	alias = config --get-regexp alias
+#	alias = config --get-regexp alias
 	cfg = config --edit --global
 
 	s = status
-	bl = branch --all --verbose
+#	bl = branch --all --verbose
 	#bl = show-branch -a
 	untracked = "!git ls-files . --ignored --exclude-standard --others | grep -v -e venv/ -e .pyc | grep -v -P \\.o$ | grep -v -P ^build | grep -v -P \\.exe$"
 
@@ -16,16 +16,16 @@
 	fp = fetch -p
 	co = checkout
 
-	rst = reset --hard
+#	rst = reset --hard
 	forget = rm --cached
 
 	ada = add --all
 
-	c = commit
-	ca = commit --all
+#	ci = commit
+#	ca = commit --all
 	pu = push --set-upstream
 
-	b = branch
+#	b = branch
 	bc = checkout -b  #create and switch to a branch
 	bldel = branch -D
 	brdel = push --delete origin
