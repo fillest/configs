@@ -26,6 +26,7 @@
 	pu = push --set-upstream
 
 #	b = branch
+	brs = remote show origin
 	bc = checkout -b  #create and switch to a branch
 	rmbrl = branch -D
 	rmbrr = push --delete origin
