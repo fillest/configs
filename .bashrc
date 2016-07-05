@@ -90,6 +90,7 @@ fi
 
 # some more ls aliases
 alias l='ls -lahF'
+alias lg='less +G'
 #alias la='ls -A'
 #alias l='ls -CF'
 alias g='git g &'
