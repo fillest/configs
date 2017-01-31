@@ -40,6 +40,9 @@
 [core]
 	editor = nano
 	pager = less
+	
+	eol = lf
+	safecrlf = true
 	autocrlf = false
 [diff]
 	tool = meld
