@@ -1,4 +1,4 @@
-ln -s $(readlink -f gitconfig) ~/.gitconfig
+ln -s --force $(readlink -f gitconfig) ~/.gitconfig
 ln -s --force $(readlink -f bashrc_18.04) ~/.bashrc
 
 ln -s ~/proj/configs/.ackrc ~/.ackrc
