@@ -49,6 +49,8 @@
 	tool = meld
 [difftool]
 	prompt = false
+[merge]
+	tool = meld
 [push]
 	default = current  #http://stackoverflow.com/questions/948354/git-push-default-behavior#comment8930472_948397
 [gui]
