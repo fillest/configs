@@ -2,7 +2,7 @@
 #	alias = config --get-regexp alias
 	cfg = config --edit --global
 
-	s = status
+	s = status -uall
 #	bl = branch --all --verbose
 	#bl = show-branch -a
 	untracked = "!git ls-files . --ignored --exclude-standard --others | grep -v -e venv/ -e .pyc | grep -v -P \\.o$ | grep -v -P ^build | grep -v -P \\.exe$"
